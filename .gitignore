@@ -1,0 +1,21 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+uploads/*
+!uploads/.gitkeep
+# models/*.keras (Uncomment to ignore models if they are too large)
+# models/*.pkl
+# models/metrics.json
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
