@@ -19,7 +19,4 @@ services:
     publishDir: dist
     envVars:
       - key: VITE_API_URL
-        fromService:
-          name: vel-tech-ids-backend
-          type: web
-          property: host
+        value: https://replace-this-with-your-backend-url.onrender.com/api
