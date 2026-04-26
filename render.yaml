@@ -14,7 +14,6 @@ services:
   # Frontend service
   - type: static
     name: vel-tech-ids-frontend
-    env: static
     buildCommand: npm install && npm run build
     publishDir: dist
     envVars:
