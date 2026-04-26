@@ -12,7 +12,7 @@ services:
         value: 3.10.0
 
   # Frontend service
-  - type: static_site
+  - type: static
     name: vel-tech-ids-frontend
     env: static
     buildCommand: npm install && npm run build
